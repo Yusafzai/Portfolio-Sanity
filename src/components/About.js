@@ -1,12 +1,6 @@
-import React, { useState, useEffect } from "react";
-import sanityClient from "../client.js";
+import React from "react";
 import tom from "../tom.jpg";
-import imageUrlBuilder from "@sanity/image-url";
 
-const builder = imageUrlBuilder(sanityClient);
-function urlFor(source) {
-  return builder.image(source);
-}
 
 export default function About() {
 
